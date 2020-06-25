@@ -34,7 +34,7 @@ def rpm_check():
     rospy.init_node("vlp_rpm_check", anonymous=False)
 
     # Change the IP address and desired rpm here if needed
-    Base_URL = 'http://192.168.0.201/cgi/'
+    Base_URL = 'http://192.168.1.201/cgi/'
     rpm_desired = 600*0.9 # at least 90% of desired rpm
 
     sensor = pycurl.Curl() 

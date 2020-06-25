@@ -1,0 +1,8 @@
+My Velodyne VLP16 has an issue where the motor did not spin at the desired rpm value. Sometimes it is 0, sometimes a negative number. It is supposed to spin at 600 rpm (default). 
+
+So this script will launch the VLP16 ROS package, then checks for the rpm. If it is less than 0.9*600, it will send a reset signal to the device. It will keep doing this until the desired rpm is met. 
+
+Please check the Python code for dependencies. Or just run and you'll see what you need to pip install. 
+
+
+Use this code at your own risk ok. 
