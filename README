@@ -4,5 +4,7 @@ So this script will launch the VLP16 ROS package, then checks for the rpm. If it
 
 Please check the Python code for dependencies. Or just run and you'll see what you need to pip install. 
 
+Video guide: https://youtu.be/t7o0q45dOlE 
+
 
 Use this code at your own risk ok. 
